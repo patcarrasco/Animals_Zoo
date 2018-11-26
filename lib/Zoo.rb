@@ -31,9 +31,7 @@ class Zoo
   end
 
   def animal_nickname
-    nicknames = []
-    animals.each {|animal| nicknames << animal.nickname}
-    nicknames
+    animals.collect {|animal| nicknames << animal.nickname}
   end
 
   def self.find_by_location(location)

@@ -22,7 +22,7 @@ Here are some of our deliverables:
 <!-- - `Animal#weight` should return the weight of the animal.
 - `Animal#species` should return the species of the animal. -->
 <!-- - `Animal.all` shoulsd return an array of all the animal instances. -->
-- `Animal#zoo` should return the zoo instance that the instance belongs to.
+<!-- - `Animal#zoo` should return the zoo instance that the instance belongs to. -->
 <!-- - `Animal.find_by_species` should take in an animal's species as an argument and return an array of all the animals, which are of that species. -->
 
 There are no `rspec` files, so it's up to you to test your code within the `run.rb` file.
